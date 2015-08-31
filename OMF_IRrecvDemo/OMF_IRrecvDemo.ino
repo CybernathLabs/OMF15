@@ -18,6 +18,7 @@ decode_results results;
 void setup()
 {
   Serial.begin(9600);
+  Serial.println("start");
   pinMode(GREEN,OUTPUT);
   pinMode(BLUE, OUTPUT);
   digitalWrite(GREEN,LOW);
