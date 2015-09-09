@@ -15,7 +15,7 @@
 void setup()
 {
   Wire.begin();        // join i2c bus (address optional for master)
-  Serial.begin(9600);  // start serial for output
+  Serial.begin(57600);  // start serial for output
   Serial.println("yup");
   pinMode(13,OUTPUT);
 }
