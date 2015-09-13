@@ -16,6 +16,7 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   int triggered = 0;
+  Serial.print("\\u ");
   for(int i=0; i < nTargets; i++){
     Wire.requestFrom(int(targets[i]), 1);
     int c = Wire.read(); // receive a byte as character

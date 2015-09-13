@@ -44,6 +44,8 @@ void loop() {
     if(results.value == 0x2107EE11 || results.value == 0xDF95E263){
       if(triggered == 0){
         triggerTarget();
+        //delay(2000);
+       // resetTarget();
       }
     }
     irrecv.resume();
